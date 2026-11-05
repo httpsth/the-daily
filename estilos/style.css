@@ -4,7 +4,8 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    margin: 0 40px 0 40px;
+    margin: 0 50px 0 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 header { 
@@ -22,5 +23,82 @@ header {
 }
 
 section { 
-    margin-top: 50px;
+    margin-top: 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+#destaquesemana {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 23px;
+    margin-bottom: 15px;
+    background-color: lightgray;
+    border: 1px solid rgba(211, 211, 211, 0.877);
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#imagemprincipal { 
+    display: flex;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+#imagemprincipal > img { 
+    border-radius: 20px;
+}
+
+#textoprincipal { 
+    line-height: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#textoprincipal > p { 
+    color: rgb(105, 105, 105);
+    font-size: 1.1em;
+}
+
+#textoprincipal > h4 > a {
+    text-decoration: none;
+    color: black;
+}
+
+#ultimasmaterias { 
+    display: grid;
+    grid-auto-flow: column;
+    align-content: space-between;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.fotosfinais { 
+    line-height: 5px;
+}
+
+.fotosfinais > img { 
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.fotosfinais > h4 { 
+    color: rgb(105, 105, 105);
+}
+
+.fotosfinais > p { 
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+footer { 
+    color: rgb(105, 105, 105);
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
