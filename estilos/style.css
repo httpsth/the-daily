@@ -35,7 +35,7 @@ section {
     width: 200px;
     height: 23px;
     margin-bottom: 15px;
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.39);
     border: 1px solid rgba(211, 211, 211, 0.877);
     border-radius: 20px;
     font-weight: bold;
@@ -101,4 +101,44 @@ footer {
     align-content: center;
     justify-content: space-between;
     align-items: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body { 
+        margin: 0px 20px 0px 20px;
+    }
+    header { 
+        font-size: 0.9em;
+    }
+
+    #destaquesemana { 
+        font-size: 0.9em;
+        width: 180px;
+    }
+
+    #nomeprincipal, #menu {
+        margin: 0px 10px 0px 10px;
+    }
+
+    #imagemprincipal { 
+        content: url('../imagens/fotodestaquepequena.jpg');
+        width: 720px;
+    }
+
+    .fotosfinais img { 
+        width: 210px;
+        height: 300px;  
+    }
+
+    #textoprincipal h1 { 
+        font-size: 1.6em;
+    }
+    
+    #textoprincipal > p { 
+        font-size: 1.3em;
+    }
+
+    #textoprincipal { 
+        font-size: 0.9em;
+    }
 }
